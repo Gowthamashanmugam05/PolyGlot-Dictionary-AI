@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Metadata and Page Title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyGlot Dictionary AI</title>
+
+    <!-- Link to CSS Stylesheet -->
+    <link href="styles.css" rel="stylesheet" as="style" >
+    <link rel="loader" href="loader/loader.css" as="style">
+    <link rel="preload" href="preload.css" as="style">
+    
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="leftside">
+      <div class="leftcontent">
+
+        <img  class="logo"  src="src/logo.png" alt="images" >
+      <hr class="line">
+      <span class="text1">Word or Paragraph need to Translate</span>
+  
+      <input type="text" class="textbox1">
+
+      <span class="text2">Translate Language</span>
+
+      <div class="input-wrapper">
+  
+        <input type="text" id="languageInput" placeholder="Type a language.." autocomplete="off">
+            
+        <ul id="suggestionList" class="suggestions"></ul>
+      </div>
+
+      <h3 class="text3">Selected Languages</h3>
+
+      <div id="selectedLanguageBox" class="result-box" >
+        <span id="selectedLanguage"></span>
+      </div>
+
+      <div class="outer">
+        <div class="button">
+          <div class="text">Translate by AI</div>
+        </div>
+      </div>
+
+
+       <span class="powerby">Powered by </span>
+
+      <img  class="footer"  src="src/sparkeits.png" alt="images" >
+    
+    </div>
+    </div>
+
+
+      <div class="rightside">
+        <div class="rightcontent">
+
+        <div class="profile"><img src="src/profile.png" alt="images" class="profile"></div>
+
+        <div class="dis"><span >PolyGlot Dictionary AI can make mistakes. Check important info.</span></div>
+
+      </div>
+      </div>
+     
+
+      </div>
+     
+
+    
+
+
+
+        <script src="scripts.js" ></script>
+
+        <script src="preload.js"></script>
+
+</body>
+
+</html>
